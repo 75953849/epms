@@ -1,0 +1,110 @@
+@charset "UTF-8";
+html,body,.mBox{
+	width:100%;
+	height:100%;
+}
+.lBox{
+	
+	width:35%;
+	height:100%;
+
+	float:left;
+}
+.lunbo1{
+	width:100%;
+	height:100%;
+	background-image:url("../image/01-1.jpg");
+	background-size:cover;
+}
+.lunbo2{
+	width:100%;
+	height:100%;
+	background-image:url("../image/01-2.jpg");
+	background-size:cover;
+}
+.lunbo3{
+	width:100%;
+	height:100%;
+	background-image:url("../image/01-3.jpg");
+	background-size:cover;
+}
+.lunbo4{
+	width:100%;
+	height:100%;
+	background-image:url("../image/01-4.jpg");
+	background-size:cover;
+}
+nav{
+	width:100%;
+	height:15%;
+	background:;
+}
+
+nav ul li{
+	margin-top:20px;
+	margin-right:10%;
+	float:right;
+	list-style-type:none;
+}
+nav ul li a{
+	text-decoration:none;
+	font-size:20px;
+	color:gray;
+}
+li a:hover{
+	color:black;
+	cursor:pointer;
+	
+}
+.welcom{
+	width:100%;
+	height:25%;
+	background:;
+}
+
+.welcom span{
+	margin-left:20%;
+}
+.loginBox input{
+	border-radius:4px;
+	border:1px gray solid;
+	margin-left:20%;
+	height:50px;
+	width:60%;
+	font-size:20px;
+	padding-left:20px;
+}
+
+input[type="submit"]{
+	background-color:#3487ff;
+	border:1px #3083ff solid;
+	border-radius:4px;
+	font-size:25px;
+	color:white;
+	padding-left:0;
+}
+
+form input[type="submit"]:hover{
+	background-color:#3455ff;
+}
+
+.p1{
+	font-size:60px;
+}
+.p2{
+	font-size:25px;
+}
+.p3{
+	color:#3456ff;
+}
+
+.loginBox{
+	
+}
+
+.rBox{
+	width:65%;
+	height:100%;
+	background:;
+	float:left;
+}
